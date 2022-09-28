@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+
+body {
+  background-color: lightblue;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+}
+</style>
+
+<h2>Formulário HTML</h2>
+
+<form action="/action_page.php">
+  <label for="fname">Nome:</label><br>
+  <input type="text" id="fname" name="fname" value="Vinicius"><br>
+  <label for="lname">Sobrenome:</label><br> 
+  <input type="text" id="lname" name="lname" value="Kniess"><br>
+  <input type="checkbox" id="lgpd" name="lgpd" value="agreelgpd">
+  <label for="lgpd"> Eu concordo em enviar meus dados de acordo com a lei LGPD</label><br><br>
+  <input type="submit" value="Enviar"> <br><br>
+
+</form> 
+
+<p>Se você clicar no botão de "Enviar", o formulário será enviado para uma página chamada"/action_page.php".</p>
+
+
+</body>
+</html>
+
